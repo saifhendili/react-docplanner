@@ -1,0 +1,87 @@
+.header{
+   
+display: flex;
+justify-content:space-between;
+width:72%;
+margin: 0 50px 0 0 ;
+padding:0 200px ;
+position: fixed;
+background-color: white;
+-webkit-box-shadow: 1px 7px 11px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 7px 11px -3px rgba(0,0,0,0.75);
+box-shadow: 1px 7px 11px -3px rgba(0,0,0,0.75);
+z-index: 1;
+}
+.nav{
+    display: flex;
+
+}
+li{
+    list-style: none;
+}
+.liste{
+    padding:10px 20px;
+}
+.liste:hover have-drop{
+position: fixed;
+}
+.have-drop:hover .dropdown{
+    display: block;
+    z-index: 1;
+    position: fixed;
+}
+.dropdown
+{   
+background-color: white;
+    position: absolute;
+    display:none;
+    left: 950px;
+    top: 57px;
+padding: 0;
+    -webkit-box-shadow: 0px 3px 20px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 20px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 20px -3px rgba(0,0,0,0.75);
+z-index: 1;
+}
+.liste-drop{
+    
+    padding:10px;
+   
+}
+
+
+.lien0:link{
+    color:#00b39b;
+}
+.lien0:hover{
+    color:#00b39b;
+}
+.lien0:active    {
+    color:#00b39b;
+}
+.lien0:visited {
+    color:#00b39b;
+}
+.lien-drop{
+  text-decoration:none;
+  color:#ababab; 
+}
+
+
+.lien-dropdown{
+    text-decoration:none;
+    color:#ababab; 
+
+}
+.logo{
+    height: 70px;
+}
+.liste-drop:hover{
+    color:#00b39b;
+    background-color: #ababab;
+}
+
+.liste-drop:hover .lien-dropdown{
+    color:#00b39b;
+
+}

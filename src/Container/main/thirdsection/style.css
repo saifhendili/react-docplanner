@@ -1,0 +1,12 @@
+.thirdsection{
+    display: flex;
+    flex-direction: row;
+    margin:50px 200px;
+}
+.svgim{
+    fill:#00ccb1
+}
+.parag-third-sec{
+    color: #00ccb1;
+    font-size: 25px;
+}

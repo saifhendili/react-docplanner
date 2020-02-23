@@ -1,0 +1,29 @@
+.style-footer{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.last-footer
+{
+   
+    color:#b9abc6;
+}
+.container-footer{
+    display: flex;
+}
+.countrylien{
+    display: flex;
+}
+.para-footer{
+    color:#b9abc6;
+}
+.lienfooter:link{
+    color:#3d98e9;
+}
+.lienfooter{
+    color:#3d98e9;
+}
+span{
+    color:#b9abc6;
+}

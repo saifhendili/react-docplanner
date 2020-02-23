@@ -1,0 +1,12 @@
+.firstcontainerstyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.title-section1{
+    color: #00b39b;
+}
+button{
+    cursor: pointer;
+}
